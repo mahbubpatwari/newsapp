@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
             title: Text("Flutter News App"),
             bottom: TabBar(
               tabs: [
-                Tab(text: "Breaking",),
+                Tab(text: "Creaking",),
                 Tab(text: "All News",),
 
 

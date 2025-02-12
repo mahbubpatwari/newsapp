@@ -31,7 +31,9 @@ class NewsItemList extends StatelessWidget {
               errorWidget: (context, url, error) => Icon(Icons.error),
             ),
       
-            SizedBox(height: 8,),
+            SizedBox(
+              height: 8,
+            ),
             Row(
               children: [
                 Container(child: Text(newsModel.source!.name.toString()),
